@@ -1,0 +1,67 @@
+body{
+    background:linear-gradient(90deg ,#32e925,blue);
+    font-size:30px;
+    text-align:center;
+  }
+  h3{
+    font-weight:1000;
+    font:Fantasy
+  }
+  #company-logo{
+    margin-bottom:50px;
+    padding-top:auto;
+    padding-bottom:auto;
+  }
+  #main-title{
+    
+    color:yellow;
+  }
+  #workarea{
+    color:rgb(22, 241, 14);
+  }
+  #info{
+    color:rgb(223, 197, 83);
+    font-style:italic;
+  }
+  #check-btn{
+    height:50px;
+    border-radius:10px;
+    border:200rem,solid,red;
+    background:linear-gradient(90deg,hsl(256, 100%, 47%),hsl(135, 90%, 44%));
+    margin-left:30px;
+    
+    padding:auto;
+    color:rgb(225, 250, 2);
+    font-family: Aclonica; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+    transition: transform 0.3s ease-in-out;
+  }
+  #text-input{
+    background:linear-gradient(90deg, hsl(231, 100%, 39%),hsl(136, 100%, 50%));
+    border:10px,red,transparent;
+    border-radius:10px;
+    height:40px;
+    width:60%;
+    color:yellow;
+    font-size:20px;
+    transition: transform 0.5s ease-in-out; 
+    margin-right:80;
+    text-align:center;
+  }
+  #check-btn:hover {
+    transform: scale(1.2); /* Scale up by 20% on hover */
+    cursor: pointer;
+  }#text-input:hover {
+    transform: scale(1.1); /* Scale up by 20% on hover */
+  }
+  #result{
+    height:30px;
+    margin-top:80px;
+    padding-bottom:50;
+    margin-bottom:80px;
+    font-size:80px;
+    color:yellow;
+  }
+  #workarea{
+    display:flex;
+    flex-direction:column;
+  }
